@@ -17,8 +17,8 @@ conf = {
 # Create Kafka consumer
 consumer = Consumer(conf)
 consumer.subscribe([topic])
-access_key = "AKIAZSSFLKRRD72NTUXF"
-secret_access_key = "AUsSc75MaKLjqE8zLNVnF+QrNQZCrb1cFqTRJE0j"
+access_key = "your access key"
+secret_access_key = "your secret access key"
 
 # Create a SparkSession
 spark = SparkSession.builder \
